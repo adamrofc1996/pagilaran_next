@@ -1,0 +1,221 @@
+{
+  "translation": {
+    "pages": {
+      "home": { "title": "Beranda" },
+      "heritage": { "title": "Warisan" },
+      "leadership": { "title": "Kepemimpinan" },
+      "sustainability": { "title": "Keberlanjutan" },
+      "globalPresence": { "title": "Kehadiran Global" },
+      "products": { "title": "Produk" },
+      "news": { "title": "Berita" },
+      "contact": { "title": "Kontak" }
+    },
+    "sections": {
+      "hero": {
+        "title": "Membudidayakan Keunggulan, Menghadirkan yang Terbaik dari Alam",
+        "subtitle": "Di PT Pagilaran, kami berdedikasi untuk membudidayakan daun teh terbaik, memastikan setiap cangkir mewujudkan warisan yang kaya dan kualitas teh Indonesia yang tak tertandingi."
+      },
+      "heritage": {
+        "title": "Warisan",
+        "subtitle": "Sejarah Kaya Kami"
+      },
+      "keyValues": {
+        "title": "Nilai-Nilai Kami"
+      },
+      "certifications": {
+        "title": "Sertifikasi"
+      },
+      "leadership": {
+        "title": "Kepemimpinan"
+      },
+      "sustainability": {
+        "title": "Keberlanjutan"
+      },
+      "globalPresence": {
+        "title": "Kehadiran Global"
+      },
+      "productShowcase": {
+        "title": "Produk Unggulan"
+      },
+      "news": {
+        "title": "Berita"
+      },
+      "contact": {
+        "title": "Hubungi Kami",
+        "offices": [
+          {
+            "name": "Kantor Pusat",
+            "label": "Kantor Utama",
+            "address": "Jl. Pagilaran No. 1, Batang, Jawa Tengah 51271, Indonesia",
+            "phone": "+62 285 123456",
+            "email": "info@ptpagilaran.com",
+            "type": "primary",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=PT+Pagilaran+Batang",
+            "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.333314375964!2d109.8936111147721!3d-6.9511111950125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fdc68e76b3b1b%3A0xac5a0a7c74f2b4e!2sP.T.+Pagilaran!5e0!3m2!1sid!2sid!4v1678886400000!5m2!1sid!2sid"
+          },
+          {
+            "name": "Kantor Ekspor",
+            "label": "Kantor Cabang",
+            "address": "Jl. Malioboro No. 123, Yogyakarta 55271, Indonesia",
+            "phone": "+62 274 789012",
+            "email": "export@ptpagilaran.com",
+            "type": "secondary",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jalan+Malioboro+Yogyakarta",
+            "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.051166894364!2d110.3631943147776!3d-7.78424999437916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a578816155555%3A0x24131de9f6a8f14!2sJl.+Malioboro!5e0!3m2!1sid!2sid!4v1678886400000!5m2!1sid!2sid"
+          },
+          {
+            "name": "Pusat Penelitian",
+            "label": "Kantor Cabang",
+            "address": "Kampus UGM, Bulaksumur, Yogyakarta 55281, Indonesia",
+            "phone": "+62 274 345678",
+            "email": "research@ptpagilaran.com",
+            "type": "secondary",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Universitas+Gadjah+Mada",
+            "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.16816326368!2d110.3779223147775!3d-7.77184899438626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a584bd8a2433d%3A0x15a5c3a441aaa65a!2sUniversitas+Gadjah+Mada!5e0!3m2!1sid!2sid!4v1678886400000!5m2!1sid!2sid"
+          }
+        ]
+      }
+    },
+    "home": "Beranda",
+    "heritage": "Warisan",
+    "products": "Produk",
+    "global_presence": "Kehadiran Global",
+    "sustainability": "Keberlanjutan",
+    "leadership": "Kepemimpinan",
+    "news": "Berita",
+    "contact": "Kontak",
+    "partner_with_us": "Bermitra Dengan Kami",
+    "premium_tea_exports": "Ekspor Teh Premium",
+    "hero_title": "Membudidayakan Keunggulan, Menghadirkan yang Terbaik dari Alam",
+    "hero_subtitle": "Di PT Pagilaran, kami berdedikasi untuk membudidayakan daun teh terbaik, memastikan setiap cangkir mewujudkan warisan yang kaya dan kualitas teh Indonesia yang tak tertandingi.",
+    "quick_overview_title": "Sekilas Pandang",
+    "quick_overview_description": "PT Pagilaran adalah produsen teh terkemuka yang berkomitmen pada praktik berkelanjutan dan menghadirkan produk teh premium secara global. Sejarah kami yang kaya dan dedikasi terhadap kualitas menjadikan kami nama yang terpercaya dalam industri teh.",
+    "quick_overview_profile_title": "Profil Singkat",
+    "quick_overview_profile_description": "PT Pagilaran adalah perusahaan swasta yang bergerak secara terpadu di bidang perkebunan, perindustrian, perdagangan, dan konsultasi, dengan komoditas utama berupa teh dan kakao. Sejak lebih dari 50 tahun lalu, PT Pagilaran telah mengelola dua unit inti dan empat unit plasma, melalui semangat bisnis yang tidak hanya berorientasi pada profit, namun juga berfokus pada keberlanjutan dan kontribusi sosial. Sebagai bagian dari Universitas Gadjah Mada (UGM), PT Pagilaran mengemban amanah Tri Dharma Perguruan Tinggi (pendidikan, penelitian, dan pengabdian masyarakat) melalui kolaborasi penelitian ilmiah oleh mahasiswa, dosen, dan peneliti, serta program pemberdayaan petani dalam skema Perkebunan Inti Rakyat (PIR) Nasional.",
+    "premium_tea_excellence_since": "Keunggulan Teh Premium Sejak 1910",
+    "view_all_products": "Lihat Semua Produk",
+    "watch_our_story": "Tonton Kisah Kami",
+    "learn_more": "Pelajari Lebih Lanjut",
+    "premium": "Premium",
+    "heritage_hero_since": "Sejak 1910",
+    "heritage_hero_title_part1": "Satu Abad",
+    "heritage_hero_title_part2": "Keunggulan",
+    "heritage_hero_description": "Dari asal-usul kolonial Belanda hingga keunggulan akademik modern, perjalanan kami membentang lebih dari satu abad dedikasi terhadap budidaya teh premium, inovasi, dan praktik berkelanjutan yang menghormati tradisi dan kemajuan.",
+    "heritage_stats_years": "Tahun Warisan",
+    "heritage_stats_hectares": "Hektar Dibudidayakan",
+    "heritage_stats_generations": "Generasi",
+    "heritage_stats_countries": "Negara yang Dilayani",
+    "heritage_timeline_title_part1": "Perjalanan",
+    "heritage_timeline_title_part2": "Kami",
+    "heritage_timeline_description": "Temukan tonggak-tonggak penting yang membentuk PT Pagilaran menjadi eksportir teh premium seperti sekarang",
+    "milestones": {
+      "1910": {
+        "title": "Pendirian Pagilaran",
+        "description": "PT Pagilaran didirikan sebagai perkebunan teh oleh pemerintah kolonial Belanda, meletakkan dasar bagi satu abad budidaya teh.",
+        "details": "Fokus awal adalah pada budidaya daun teh berkualitas tinggi untuk ekspor ke pasar Eropa."
+      },
+      "1968": {
+        "title": "Integrasi dengan UGM",
+        "description": "PT Pagilaran menjadi bagian dari Universitas Gadjah Mada (UGM), menandai era baru kolaborasi akademik dan penelitian.",
+        "details": "Integrasi ini mendorong perpaduan unik antara operasi komersial dengan mandat pendidikan dan penelitian."
+      },
+      "1980": {
+        "title": "Ekspansi Budidaya Kakao",
+        "description": "Diversifikasi ke budidaya kakao dimulai, memperluas portofolio pertanian perusahaan.",
+        "details": "Langkah strategis ini bertujuan untuk memperluas penawaran produk dan meningkatkan keberlanjutan pertanian."
+      },
+      "2000": {
+        "title": "Modernisasi dan Inisiatif Keberlanjutan",
+        "description": "Implementasi teknologi pengolahan modern dan praktik pertanian berkelanjutan untuk meningkatkan kualitas produk dan tanggung jawab lingkungan.",
+        "details": "Investasi dilakukan dalam metode ramah lingkungan dan program pemberdayaan masyarakat."
+      },
+      "2020": {
+        "title": "Ekspansi Pasar Global",
+        "description": "Ekspansi signifikan ke pasar internasional baru, memperkuat posisi PT Pagilaran sebagai eksportir teh global.",
+        "details": "Kemitraan baru dan saluran distribusi didirikan di berbagai benua."
+      }
+    },
+    "heritage_legacy_title_part1": "Warisan",
+    "heritage_legacy_title_part2": "Kami",
+    "heritage_legacy_description": "Lebih dari satu abad budidaya teh telah mengajarkan kami bahwa keunggulan bukan hanya tentang produk akhir, tetapi tentang setiap langkah perjalanan. Dari pemilihan varietas teh yang cermat hingga praktik pertanian berkelanjutan yang melindungi lingkungan kita untuk generasi mendatang.",
+    "heritage_legacy_point1": "Perkebunan: Teh dan Kakao berkualitas tinggi",
+    "heritage_legacy_point2": "Perindustrian: Pengolahan teh dan kakao modern",
+    "heritage_legacy_point3": "Perdagangan: Distribusi produk ke pasar domestik dan internasional",
+    "heritage_legacy_point4": "Konsultasi: Keahlian agribisnis dan manajemen",
+    "heritage_legacy_quality_title": "Kualitas",
+    "heritage_legacy_quality_description": "Standar tanpa kompromi",
+    "heritage_legacy_community_title": "Komunitas",
+    "heritage_legacy_community_description": "Mendukung keluarga lokal",
+    "heritage_legacy_sustainability_title": "Keberlanjutan",
+    "heritage_legacy_sustainability_description": "Pengelolaan lingkungan",
+    "heritage_legacy_innovation_title": "Inovasi",
+    "heritage_legacy_innovation_description": "Keunggulan berbasis penelitian",
+    "vision_mission_title": "Visi & Misi",
+    "vision_title": "Visi",
+    "vision_description": "Menjadi pemimpin yang diakui secara global dalam produksi dan inovasi teh berkelanjutan, memberikan kontribusi signifikan bagi kesejahteraan masyarakat dan lingkungan.",
+    "mission_title": "Misi",
+    "mission_1": "Meningkatkan nilai perusahaan melalui tata kelola yang baik, efisiensi operasional, dan pengembangan sumber daya manusia yang profesional.",
+    "mission_2": "Berkomitmen pada riset dan pengembangan untuk terus menghasilkan produk unggulan dan solusi agribisnis yang relevan.",
+    "mission_3": "Menerapkan praktik budidaya teh yang berkelanjutan dan ramah lingkungan.",
+    "mission_4": "Meningkatkan kesejahteraan karyawan dan masyarakat sekitar melalui kemitraan yang adil dan merata.",
+    "organizational_values_title": "Nilai-Nilai Kami",
+    "organizational_values_description": "Prinsip-prinsip inti yang memandu tindakan, keputusan, dan hubungan kami",
+    "value_integrity_title": "Integritas",
+    "value_integrity_description": "Menjunjung tinggi kejujuran, transparansi, dan perilaku etis dalam semua aktivitas bisnis.",
+    "value_sustainability_title": "Keberlanjutan",
+    "value_sustainability_description": "Berkomitmen pada praktik ramah lingkungan dan tanggung jawab sosial.",
+    "value_innovation_title": "Inovasi",
+    "value_innovation_description": "Terus mencari cara baru untuk meningkatkan produk, proses, dan layanan.",
+    "value_quality_title": "Kualitas",
+    "value_quality_description": "Menghadirkan produk teh unggulan yang memenuhi standar keunggulan tertinggi.",
+    "value_community_title": "Komunitas",
+    "value_community_description": "Membangun hubungan positif dan berkontribusi pada kesejahteraan masyarakat lokal.",
+    "organizational_values": {
+      "excellence": {
+        "title": "Keunggulan",
+        "description": "Mengejar standar tertinggi dalam setiap aspek, mulai dari budidaya teh hingga pelayanan pelanggan."
+      },
+      "innovation": {
+        "title": "Inovasi",
+        "description": "Menerapkan inovasi berbasis riset dan peningkatan berkelanjutan dalam semua aspek operasional kami."
+      },
+      "sustainability": {
+        "title": "Keberlanjutan",
+        "description": "Berkomitmen pada pengelolaan lingkungan dan praktik berkelanjutan untuk generasi mendatang."
+      },
+      "community": {
+        "title": "Komunitas",
+        "description": "Mendukung dan memberdayakan komunitas di wilayah operasional kami melalui berbagai program pengembangan."
+      }
+    },
+    "featured_products_title": "Produk Unggulan",
+    "featured_products_description": "Jelajahi berbagai produk teh istimewa kami, dibuat dengan semangat dan presisi.",
+    "product_black_tea_title": "Teh Hitam",
+    "product_black_tea_description": "Kaya dan kuat, teh hitam kami menawarkan pengalaman rasa klasik.",
+    "product_green_tea_title": "Teh Hijau",
+    "product_green_tea_description": "Segar dan cerah, teh hijau kami dikenal karena rasa yang lembut dan manfaat kesehatannya.",
+    "product_oolong_tea_title": "Teh Oolong",
+    "product_oolong_tea_description": "Perpaduan unik teh hitam dan hijau, menawarkan profil yang kompleks dan aromatik.",
+    "global_impact_title": "Dampak Global",
+    "global_impact_description": "Komitmen kami melampaui produksi teh untuk memberikan dampak positif di seluruh dunia.",
+    "impact_sustainability_title": "Praktik Berkelanjutan",
+    "impact_sustainability_description": "Menerapkan metode pertanian ramah lingkungan dan mendukung keanekaragaman hayati.",
+    "impact_community_title": "Pemberdayaan Komunitas",
+    "impact_community_description": "Berinvestasi dalam pendidikan, kesehatan, dan infrastruktur untuk masyarakat lokal.",
+    "impact_fair_trade_title": "Perdagangan Adil",
+    "impact_fair_trade_description": "Memastikan upah yang adil dan kondisi kerja yang etis bagi petani kami.",
+    "footer_address": "Alamat: Jl. Raya Pagilaran No. 1, Batang, Jawa Tengah, Indonesia",
+    "footer_phone": "Telepon: +62 123 4567 890",
+    "footer_email": "Email: info@pagilaran.com",
+    "footer_copyright": "© 2024 PT Pagilaran. Semua hak dilindungi undang-undang.",
+    "chat_widget": {
+      "header_title": "Layanan Chatbot",
+      "welcome_message": "Halo! Selamat datang di PT Pagilaran. Ada yang bisa saya bantu hari ini?",
+      "input_placeholder": "Ketik pesan Anda...",
+      "suggestions_title": "Saran",
+      "powered_by": "Didukung oleh AI",
+      "error_message": "Maaf, saya tidak dapat mengambil informasi. Silakan coba lagi nanti.",
+      "no_answer_message": "Maaf, saya belum memiliki informasi mengenai hal itu. Silakan coba pertanyaan lain. Jika Anda memiliki pertanyaan spesifik, Anda dapat menghubungi kami melalui kontak berikut:\n\nUntuk pertanyaan terkait internal perusahaan (operasional, administrasi), silakan hubungi Kantor Pusat kami:\nTelepon: +62 285 123456\nEmail: info@ptpagilaran.com\n\nUntuk pertanyaan terkait transaksi, produk, harga, penjualan, pemasaran, atau ekspor, silakan hubungi Kantor Ekspor kami:\nTelepon: +62 274 789012\nEmail: export@ptpagilaran.com\n\nUntuk pertanyaan terkait produk (bahan, komponen, riset, kandungan), silakan hubungi Pusat Penelitian kami:\nTelepon: +62 274 345678\nEmail: research@ptpagilaran.com\n\nAtau, Anda dapat mengunjungi halaman Kontak kami untuk detail lebih lanjut."
+    }
+  }
+}

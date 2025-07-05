@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Orthodox Black Tea",
+    "description": "Hand-picked and traditionally processed for full-bodied flavor.",
+    "image": "/images/th-9253d381b0be9bdf0ec20217209a4f21da04ddd8.png",
+    "tags": ["Full-bodied"],
+    "flavorNotes": "Malty, fruity, and slightly sweet with a brisk finish.",
+    "specifications": "100% black tea leaves, sourced from high-altitude estates.",
+    "certifications": "Rainforest Alliance, Organic Certified"
+  },
+  {
+    "id": 2,
+    "name": "Premium CTC",
+    "description": "Robust and full-bodied tea perfect for blending.",
+    "image": "/images/120a0787a7a54b5dd143953c28d00c4eb77f304f.png",
+    "tags": ["Robust"],
+    "flavorNotes": "Strong, bold, and malty, ideal for milk tea.",
+    "specifications": "Crush, Tear, Curl (CTC) processed leaves for quick infusion.",
+    "certifications": "Fair Trade, ISO 22000"
+  },
+  {
+    "id": 3,
+    "name": "Green Tea",
+    "description": "Delicate and fresh with natural antioxidants.",
+    "image": "/images/green_tea.jpg",
+    "tags": ["Rich Antioxidants", "Fresh Flavor"],
+    "flavorNotes": "Grassy, vegetal, and slightly sweet with a refreshing aftertaste.",
+    "specifications": "Steamed or pan-fired to prevent oxidation.",
+    "certifications": "JAS Organic, USDA Organic"
+  },
+  {
+    "id": 4,
+    "name": "White Tea",
+    "description": "Subtle and delicate, made from the youngest leaves.",
+    "image": "/images/id-11134207-7r992-lqn5x1wixjou31.jpg",
+    "tags": ["Delicate", "Rare"],
+    "flavorNotes": "Light, floral, and sweet with hints of honey and melon.",
+    "specifications": "Minimally processed, air-dried leaves.",
+    "certifications": "Organic, Non-GMO"
+  },
+  {
+    "id": 5,
+    "name": "Blue Tea",
+    "description": "Vibrant and floral, known for its unique color.",
+    "image": "/images/id-11134207-7r992-lqn5x1wiyy9a10.jpg",
+    "tags": ["Exotic", "Caffeine-Free"],
+    "flavorNotes": "Earthy and woody, with a slightly sweet flavor.",
+    "specifications": "Made from butterfly pea flowers.",
+    "certifications": "Natural, Herbal"
+  },
+  {
+    "id": 6,
+    "name": "Pink Tea",
+    "description": "Aromatic and soothing, with a lovely pink hue.",
+    "image": "/images/th-22028614882b9f536c72a7c25219c2cc6f97e757.png",
+    "tags": ["Soothing", "Aromatic"],
+    "flavorNotes": "Spicy and creamy, with notes of cardamom and cinnamon.",
+    "specifications": "Traditional Kashmiri chai with baking soda.",
+    "certifications": "Authentic Recipe"
+  },
+  {
+    "id": 7,
+    "name": "Yellow Tea",
+    "description": "Rare and smooth, with a mellow, sweet taste.",
+    "image": "/images/2d80c3b6596e48bae1a406e577bc4e4d@resize_w900_nl.webp",
+    "tags": ["Rare", "Mellow"],
+    "flavorNotes": "Sweet, nutty, and smooth with a clean finish.",
+    "specifications": "Slow, gentle oxidation process.",
+    "certifications": "Imperial Tribute Tea"
+  }
+]

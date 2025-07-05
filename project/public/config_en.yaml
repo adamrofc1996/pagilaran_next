@@ -1,0 +1,68 @@
+
+- category: "General Inquiry"
+  questions:
+    - "Hello"
+    - "Hi"
+    - "Help"
+  answer: "Hello! Welcome to PT Pagilaran. How can I assist you today? You can ask me about our products, global shipping, or sustainability efforts."
+  suggestions:
+    - "Tell me about your products"
+    - "Do you ship internationally?"
+    - "What are your sustainability programs?"
+
+- category: "Product Information"
+  questions:
+    - "What types of tea do you offer?"
+    - "Tell me about your products"
+    - "What do you sell?"
+    - "Product details"
+  answer: "We offer a premium selection of Orthodox Black Tea, Premium CTC, and Green Tea. We also provide custom blends to meet specific client needs. You can find more details on our Products page."
+  suggestions:
+    - "What is Orthodox Black Tea?"
+    - "Do you offer custom blends?"
+    - "Where can I see all products?"
+
+- category: "Shipping & Export"
+  questions:
+    - "Do you ship internationally?"
+    - "How does your export process work?"
+    - "Global presence"
+  answer: "Yes, we are experts in global tea exports. Our services cover everything from sourcing and blending to packaging and logistics. Please visit our Global Presence page for more information."
+  suggestions:
+    - "Which countries do you export to?"
+    - "What are the shipping costs?"
+    - "Contact export division"
+
+- category: "Sustainability"
+  questions:
+    - "What are your sustainability programs?"
+    - "Are you eco-friendly?"
+    - "Sustainability efforts"
+  answer: "Sustainability is at the core of our operations. We are committed to environmentally friendly practices, community empowerment, and long-term ecological balance. Learn more on our Sustainability page."
+  suggestions:
+    - "Tell me about your certifications"
+    - "How do you support local communities?"
+    - "What is your water management policy?"
+
+- category: "Leadership"
+  questions:
+    - "Who is the leadership team?"
+    - "Who is in charge?"
+    - "Management"
+  answer: "Our leadership team comprises seasoned professionals with deep expertise in the tea industry and management. You can learn more about them on our Leadership page."
+  suggestions:
+    - "Who is the CEO?"
+    - "What is the board structure?"
+    - "Go to Leadership page"
+
+- category: "Contact"
+  questions:
+    - "How can I contact you?"
+    - "Contact information"
+    - "Phone number"
+    - "Email address"
+  answer: "You can reach us via email at export@ptpagilaran.com or by phone at +62 285 123456. For detailed inquiries, please use the form on our Contact page."
+  suggestions:
+    - "Go to Contact page"
+    - "What is the office address?"
+    - "Send me an email link"

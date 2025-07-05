@@ -1,0 +1,415 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Core Typography & Base Styles */
+@layer base {
+  html {
+    @apply antialiased text-base scroll-smooth;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply font-body text-neutral-800 leading-relaxed;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Responsive Typography Scale */
+  h1 { @apply text-5xl lg:text-6xl xl:text-7xl font-heading font-semibold leading-tight; }
+  h2 { @apply text-4xl lg:text-5xl font-heading font-semibold leading-tight; }
+  h3 { @apply text-3xl lg:text-4xl font-heading font-semibold leading-snug; }
+  h4 { @apply text-2xl lg:text-3xl font-heading font-semibold leading-snug; }
+  h5 { @apply text-xl lg:text-2xl font-heading font-semibold leading-normal; }
+  h6 { @apply text-lg lg:text-xl font-heading font-semibold leading-normal; }
+
+  /* Paragraph and text optimization */
+  p {
+    @apply leading-relaxed;
+  }
+
+  /* Interactive Elements */
+  a, button, input, textarea, select {
+    @apply transition-all duration-300;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  *:focus {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2;
+  }
+}
+
+/* Reusable Components */
+@layer components {
+  /* Layout Components */
+  .container-grid { 
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; 
+  }
+  
+  .section-padding { 
+    @apply py-16 lg:py-24; 
+  }
+  
+  .content-spacing {
+    @apply space-y-6 lg:space-y-8;
+  }
+  
+  /* Card Components */
+  .card-base { 
+    @apply bg-white rounded-2xl shadow-depth-2 border border-neutral-100/50; 
+  }
+  
+  .card-elevated { 
+    @apply bg-white rounded-3xl shadow-depth-3 border border-neutral-100/50 hover:shadow-depth-4 transition-all duration-500; 
+  }
+  
+  .card-premium { 
+    @apply bg-gradient-to-br from-white via-neutral-50/50 to-white rounded-3xl shadow-depth-4 border border-neutral-100/50 hover:shadow-depth-5 transition-all duration-500; 
+  }
+  
+  /* Button Components */
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white px-8 py-4 rounded-2xl font-semibold shadow-primary hover:shadow-depth-3 hover:scale-105 transition-all duration-300;
+  }
+  
+  .btn-secondary {
+    @apply bg-gradient-to-r from-secondary-500 to-secondary-600 hover:from-secondary-600 hover:to-secondary-700 text-white px-8 py-4 rounded-2xl font-semibold shadow-medium hover:shadow-depth-3 hover:scale-105 transition-all duration-300;
+  }
+  
+  .btn-accent {
+    @apply bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 text-white px-8 py-4 rounded-2xl font-semibold shadow-accent hover:shadow-depth-3 hover:scale-105 transition-all duration-300;
+  }
+  
+  .btn-outline {
+    @apply bg-white hover:bg-neutral-50 text-neutral-800 border-2 border-neutral-200 hover:border-primary-300 px-8 py-4 rounded-2xl font-semibold shadow-soft hover:shadow-medium transition-all duration-300;
+  }
+  
+  /* Text Effects */
+  .text-gradient-primary {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-primary-500;
+  }
+  
+  .text-gradient-accent {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-accent-600 to-accent-500;
+  }
+  
+  .text-gradient-animated {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-primary-600 via-accent-500 to-primary-600 bg-[length:200%_auto] animate-gradient;
+  }
+  
+  /* Background Patterns */
+  .bg-pattern-subtle {
+    @apply bg-tea-pattern opacity-5;
+  }
+  
+  .bg-gradient-soft {
+    @apply bg-gradient-to-br from-neutral-50 via-white to-primary-50/30;
+  }
+  
+  .bg-gradient-depth {
+    @apply bg-gradient-to-br from-white via-neutral-50/50 to-neutral-100/30;
+  }
+  
+  /* Icon Styles */
+  .icon-primary {
+    @apply text-primary-600;
+  }
+  
+  .icon-accent {
+    @apply text-accent-600;
+  }
+  
+  .icon-floating {
+    @apply animate-leaf-float;
+  }
+}
+
+/* Utility Classes */
+@layer utilities {
+  /* Text Rendering */
+  .text-crisp {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  /* Backdrop Effects */
+  .backdrop-glass {
+    @apply backdrop-blur-md bg-white/80 border border-white/20;
+  }
+  
+  .backdrop-dark {
+    @apply backdrop-blur-md bg-neutral-900/80 border border-neutral-700/20;
+  }
+  
+  /* Flex Helpers */
+  .flex-center { 
+    @apply flex items-center justify-center; 
+  }
+  
+  .flex-between { 
+    @apply flex items-center justify-between; 
+  }
+  
+  /* Grid Layouts */
+  .grid-auto-fit { 
+    @apply grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-6; 
+  }
+  
+  .grid-auto-fill { 
+    @apply grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-6; 
+  }
+  
+  /* Responsive Text Sizing */
+  .text-responsive-sm {
+    @apply text-sm md:text-base;
+  }
+  
+  .text-responsive-base {
+    @apply text-base md:text-lg;
+  }
+  
+  .text-responsive-lg {
+    @apply text-lg md:text-xl;
+  }
+  
+  .text-responsive-xl {
+    @apply text-xl md:text-2xl;
+  }
+  
+  /* Spacing Utilities */
+  .space-section {
+    @apply space-y-16 lg:space-y-24;
+  }
+  
+  .space-content {
+    @apply space-y-8 lg:space-y-12;
+  }
+  
+  .space-items {
+    @apply space-y-4 lg:space-y-6;
+  }
+  
+  /* Animation Utilities */
+  .animate-in {
+    @apply animate-fade-in;
+  }
+  
+  .animate-up {
+    @apply animate-slide-up;
+  }
+  
+  .animate-scale {
+    @apply animate-scale-in;
+  }
+  
+  /* Hover Effects */
+  .hover-lift {
+    @apply hover:scale-105 hover:shadow-depth-3 transition-all duration-300;
+  }
+  
+  .hover-glow {
+    @apply hover:shadow-primary transition-all duration-300;
+  }
+  
+  /* Focus States */
+  .focus-ring {
+    @apply focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:outline-none;
+  }
+  
+  /* Content Width Constraints */
+  .content-narrow {
+    @apply max-w-2xl mx-auto;
+  }
+  
+  .content-medium {
+    @apply max-w-4xl mx-auto;
+  }
+  
+  .content-wide {
+    @apply max-w-6xl mx-auto;
+  }
+  
+  .content-full {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  /* Tea Leaf Specific Utilities */
+  .tea-leaf-shadow {
+    filter: drop-shadow(0 8px 25px rgba(234, 179, 8, 0.3)) drop-shadow(0 4px 12px rgba(45, 119, 56, 0.2));
+  }
+  
+  .tea-leaf-glow {
+    box-shadow: 0 0 20px rgba(234, 179, 8, 0.4), 0 0 40px rgba(45, 119, 56, 0.2);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-neutral-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-neutral-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-neutral-400;
+}
+
+/* Selection Styles */
+::selection {
+  @apply bg-primary-200 text-primary-900;
+}
+
+::-moz-selection {
+  @apply bg-primary-200 text-primary-900;
+}
+
+/* Accessibility & Print */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .animate-tea-leaf-dance {
+    animation: none !important;
+  }
+}
+
+@media print {
+  * {
+    @apply text-neutral-900 bg-white;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* Enhanced Component Styles */
+.tea-leaf-button-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tea-leaf-button-container:hover .tea-leaf-glow-effect {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.tea-leaf-glow-effect {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(234, 179, 8, 0.3) 0%, rgba(45, 119, 56, 0.2) 50%, transparent 70%);
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  filter: blur(20px);
+}
+
+/* Modern Card Hover Effects */
+.card-modern {
+  @apply bg-white rounded-3xl p-8 shadow-lg border border-neutral-100/50 transition-all duration-500;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 252, 0.8) 100%);
+}
+
+.card-modern:hover {
+  @apply shadow-2xl transform scale-105;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(248, 250, 252, 0.95) 100%);
+}
+
+/* Enhanced Button Variants */
+.btn-glass {
+  @apply backdrop-blur-md bg-white/20 border border-white/30 text-white px-6 py-3 rounded-xl font-semibold hover:bg-white/30 transition-all duration-300;
+}
+
+.btn-gradient {
+  @apply bg-gradient-to-r from-primary-500 via-accent-500 to-primary-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-primary-600 hover:via-accent-600 hover:to-primary-700 transition-all duration-300 shadow-lg hover:shadow-xl;
+}
+
+/* Modern Grid Layouts */
+.grid-modern {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (min-width: 768px) {
+  .grid-modern {
+    gap: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-modern {
+    gap: 3rem;
+  }
+}
+
+/* Enhanced Typography */
+.heading-modern {
+  @apply font-heading font-bold text-4xl lg:text-5xl xl:text-6xl leading-tight text-neutral-800;
+  background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-modern {
+  @apply text-lg lg:text-xl leading-relaxed text-neutral-600 max-w-3xl;
+}
+
+/* Modern Section Layouts */
+.section-modern {
+  @apply py-20 lg:py-32 relative overflow-hidden;
+}
+
+.section-modern::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(248, 250, 252, 0.5) 0%, rgba(255, 255, 255, 0.8) 100%);
+  pointer-events: none;
+}
+
+/* Enhanced Navigation */
+.nav-modern {
+  @apply backdrop-blur-lg bg-white/90 border-b border-neutral-200/50 sticky top-0 z-50 transition-all duration-300;
+}
+
+.nav-modern.scrolled {
+  @apply bg-white/95 shadow-lg;
+}
+
+/* Modern Footer */
+.footer-modern {
+  @apply bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-900 text-white relative overflow-hidden;
+}
+
+.footer-modern::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(234, 179, 8, 0.5) 50%, transparent 100%);
+}

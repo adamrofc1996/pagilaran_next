@@ -1,0 +1,68 @@
+
+- category: "Sapaan Umum"
+  questions:
+    - "Halo"
+    - "Hai"
+    - "Bantuan"
+  answer: "Halo! Selamat datang di PT Pagilaran. Ada yang bisa saya bantu hari ini? Anda bisa bertanya tentang produk, pengiriman global, atau program keberlanjutan kami."
+  suggestions:
+    - "Beritahu saya tentang produk Anda"
+    - "Apakah Anda melayani pengiriman internasional?"
+    - "Apa saja program keberlanjutan Anda?"
+
+- category: "Informasi Produk"
+  questions:
+    - "Jenis teh apa saja yang Anda tawarkan?"
+    - "Beritahu saya tentang produk Anda"
+    - "Apa yang Anda jual?"
+    - "Detail produk"
+  answer: "Kami menawarkan pilihan premium Teh Hitam Orthodox, Premium CTC, dan Teh Hijau. Kami juga menyediakan campuran khusus untuk memenuhi kebutuhan klien. Detail lebih lanjut dapat ditemukan di halaman Produk kami."
+  suggestions:
+    - "Apa itu Teh Hitam Orthodox?"
+    - "Apakah Anda menawarkan campuran khusus?"
+    - "Di mana saya bisa melihat semua produk?"
+
+- category: "Pengiriman & Ekspor"
+  questions:
+    - "Apakah Anda melayani pengiriman internasional?"
+    - "Bagaimana proses ekspor Anda?"
+    - "Kehadiran global"
+  answer: "Ya, kami adalah ahli dalam ekspor teh global. Layanan kami mencakup semuanya, mulai dari pengadaan dan pencampuran hingga pengemasan dan logistik. Silakan kunjungi halaman Kehadiran Global kami untuk informasi lebih lanjut."
+  suggestions:
+    - "Ke negara mana saja Anda mengekspor?"
+    - "Berapa biaya pengirimannya?"
+    - "Hubungi divisi ekspor"
+
+- category: "Keberlanjutan"
+  questions:
+    - "Apa saja program keberlanjutan Anda?"
+    - "Apakah Anda ramah lingkungan?"
+    - "Upaya keberlanjutan"
+  answer: "Keberlanjutan adalah inti dari operasi kami. Kami berkomitmen pada praktik ramah lingkungan, pemberdayaan masyarakat, dan keseimbangan ekologis jangka panjang. Pelajari lebih lanjut di halaman Keberlanjutan kami."
+  suggestions:
+    - "Beritahu saya tentang sertifikasi Anda"
+    - "Bagaimana Anda mendukung masyarakat lokal?"
+    - "Apa kebijakan manajemen air Anda?"
+
+- category: "Kepemimpinan"
+  questions:
+    - "Siapa tim pimpinan perusahaan?"
+    - "Siapa yang bertanggung jawab?"
+    - "Manajemen"
+  answer: "Tim pimpinan kami terdiri dari para profesional berpengalaman dengan keahlian mendalam di industri dan manajemen teh. Anda dapat mempelajari lebih lanjut tentang mereka di halaman Kepemimpinan kami."
+  suggestions:
+    - "Siapa CEO-nya?"
+    - "Bagaimana struktur dewan direksi?"
+    - "Buka halaman Kepemimpinan"
+
+- category: "Kontak"
+  questions:
+    - "Bagaimana cara menghubungi Anda?"
+    - "Informasi kontak"
+    - "Nomor telepon"
+    - "Alamat email"
+  answer: "Anda dapat menghubungi kami melalui email di export@ptpagilaran.com atau melalui telepon di +62 285 123456. Untuk pertanyaan mendetail, silakan gunakan formulir di halaman Kontak kami."
+  suggestions:
+    - "Buka halaman Kontak"
+    - "Apa alamat kantornya?"
+    - "Kirimkan saya tautan email"

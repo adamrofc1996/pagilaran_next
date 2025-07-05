@@ -1,0 +1,221 @@
+{
+  "translation": {
+    "pages": {
+      "home": { "title": "Home" },
+      "heritage": { "title": "Heritage" },
+      "leadership": { "title": "Leadership" },
+      "sustainability": { "title": "Sustainability" },
+      "globalPresence": { "title": "Global Presence" },
+      "products": { "title": "Products" },
+      "news": { "title": "News" },
+      "contact": { "title": "Contact" }
+    },
+    "sections": {
+      "hero": {
+        "title": "Cultivating Excellence, Delivering Nature's Finest",
+        "subtitle": "At PT Pagilaran, we are dedicated to cultivating the finest tea leaves, ensuring every cup embodies the rich heritage and unparalleled quality of Indonesian tea."
+      },
+      "heritage": {
+        "title": "Heritage",
+        "subtitle": "Our Rich History"
+      },
+      "keyValues": {
+        "title": "Our Values"
+      },
+      "certifications": {
+        "title": "Certifications"
+      },
+      "leadership": {
+        "title": "Leadership"
+      },
+      "sustainability": {
+        "title": "Sustainability"
+      },
+      "globalPresence": {
+        "title": "Global Presence"
+      },
+      "productShowcase": {
+        "title": "Featured Products"
+      },
+      "news": {
+        "title": "News"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "offices": [
+          {
+            "name": "Head Office",
+            "label": "Main Office",
+            "address": "Jl. Pagilaran No. 1, Batang, Central Java 51271, Indonesia",
+            "phone": "+62 285 123456",
+            "email": "info@ptpagilaran.com",
+            "type": "primary",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=PT+Pagilaran+Batang",
+            "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.333314375964!2d109.8936111147721!3d-6.9511111950125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fdc68e76b3b1b%3A0xac5a0a7c74f2b4e!2sP.T.+Pagilaran!5e0!3m2!1sen!2sid!4v1678886400000!5m2!1sen!2sid"
+          },
+          {
+            "name": "Export Office",
+            "label": "Branch Office",
+            "address": "Jl. Malioboro No. 123, Yogyakarta 55271, Indonesia",
+            "phone": "+62 274 789012",
+            "email": "export@ptpagilaran.com",
+            "type": "secondary",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jalan+Malioboro+Yogyakarta",
+            "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.051166894364!2d110.3631943147776!3d-7.78424999437916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a578816155555%3A0x24131de9f6a8f14!2sJl.+Malioboro!5e0!3m2!1sen!2sid!4v1678886400000!5m2!1sen!2sid"
+          },
+          {
+            "name": "Research Center",
+            "label": "Branch Office",
+            "address": "UGM Campus, Bulaksumur, Yogyakarta 55281, Indonesia",
+            "phone": "+62 274 345678",
+            "email": "research@ptpagilaran.com",
+            "type": "secondary",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Universitas+Gadjah+Mada",
+            "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.16816326368!2d110.3779223147775!3d-7.77184899438626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a584bd8a2433d%3A0x15a5c3a441aaa65a!2sUniversitas+Gadjah+Mada!5e0!3m2!1sen!2sid!4v1678886400000!5m2!1sen!2sid"
+          }
+        ]
+      }
+    },
+    "home": "Home",
+    "heritage": "Heritage", 
+    "products": "Products",
+    "global_presence": "Global Presence",
+    "sustainability": "Sustainability",
+    "leadership": "Leadership",
+    "news": "News",
+    "contact": "Contact",
+    "partner_with_us": "Partner With Us",
+    "premium_tea_exports": "Premium Tea Exports",
+    "hero_title": "Cultivating Excellence, Delivering Nature's Finest",
+    "hero_subtitle": "At PT Pagilaran, we are dedicated to cultivating the finest tea leaves, ensuring every cup embodies the rich heritage and unparalleled quality of Indonesian tea.",
+    "quick_overview_title": "Quick Overview",
+    "quick_overview_description": "PT Pagilaran is a leading tea producer committed to sustainable practices and delivering premium tea products globally. Our rich history and dedication to quality make us a trusted name in the tea industry.",
+    "quick_overview_profile_title": "Brief Profile",
+    "quick_overview_profile_description": "PT Pagilaran is a private company engaged integrally in plantations, industry, trade, and consulting, with tea and cocoa as its main commodities. For over 50 years, PT Pagilaran has managed two core units and four plasma units, driven by a business spirit that is not only profit-oriented but also focused on sustainability and social contribution. As part of Gadjah Mada University (UGM), PT Pagilaran carries out the mandate of Tri Dharma Perguruan Tinggi (education, research, and community service) through scientific research collaboration by students, lecturers, and researchers, as well as farmer empowerment programs under the National Smallholder Core Plantation (PIR) scheme.",
+    "premium_tea_excellence_since": "Premium Tea Excellence Since 1910",
+    "view_all_products": "View All Products",
+    "watch_our_story": "Watch Our Story",
+    "learn_more": "Learn More",
+    "premium": "Premium",
+    "heritage_hero_since": "Since 1910",
+    "heritage_hero_title_part1": "A Century of",
+    "heritage_hero_title_part2": "Excellence",
+    "heritage_hero_description": "From Dutch colonial origins to modern academic excellence, our journey spans over a century of dedication to premium tea cultivation, innovation, and sustainable practices that honor both tradition and progress.",
+    "heritage_stats_years": "Years of Heritage",
+    "heritage_stats_hectares": "Hectares Cultivated",
+    "heritage_stats_generations": "Generations",
+    "heritage_stats_countries": "Countries Served",
+    "heritage_timeline_title_part1": "Our",
+    "heritage_timeline_title_part2": "Journey",
+    "heritage_timeline_description": "Discover the key milestones that shaped PT Pagilaran into the premium tea exporter we are today",
+    "milestones": {
+      "1910": {
+        "title": "Founding of Pagilaran",
+        "description": "PT Pagilaran was established as a tea plantation by the Dutch colonial government, laying the foundation for a century of tea cultivation.",
+        "details": "The initial focus was on cultivating high-quality tea leaves for export to European markets."
+      },
+      "1968": {
+        "title": "Integration with UGM",
+        "description": "PT Pagilaran became part of Gadjah Mada University (UGM), marking a new era of academic and research collaboration.",
+        "details": "This integration fostered a unique blend of commercial operations with educational and research mandates."
+      },
+      "1980": {
+        "title": "Expansion of Cocoa Cultivation",
+        "description": "Diversification into cocoa cultivation began, expanding the company's agricultural portfolio.",
+        "details": "This strategic move aimed to broaden product offerings and enhance agricultural sustainability."
+      },
+      "2000": {
+        "title": "Modernization and Sustainability Initiatives",
+        "description": "Implementation of modern processing technologies and sustainable farming practices to enhance product quality and environmental responsibility.",
+        "details": "Investments were made in eco-friendly methods and community empowerment programs."
+      },
+      "2020": {
+        "title": "Global Market Expansion",
+        "description": "Significant expansion into new international markets, solidifying PT Pagilaran's position as a global tea exporter.",
+        "details": "New partnerships and distribution channels were established across various continents."
+      }
+    },
+    "heritage_legacy_title_part1": "Our",
+    "heritage_legacy_title_part2": "Legacy",
+    "heritage_legacy_description": "More than a century of tea cultivation has taught us that excellence is not just about the final product, but about every step of the journey. From the careful selection of tea varietals to the sustainable farming practices that protect our environment for future generations.",
+    "heritage_legacy_point1": "Plantations: High-quality tea and cocoa",
+    "heritage_legacy_point2": "Industry: Modern tea and cocoa processing",
+    "heritage_legacy_point3": "Trade: Product distribution to domestic and international markets",
+    "heritage_legacy_point4": "Consulting: Agribusiness and management expertise",
+    "heritage_legacy_quality_title": "Quality",
+    "heritage_legacy_quality_description": "Uncompromising standards",
+    "heritage_legacy_community_title": "Community",
+    "heritage_legacy_community_description": "Supporting local families",
+    "heritage_legacy_sustainability_title": "Sustainability",
+    "heritage_legacy_sustainability_description": "Environmental stewardship",
+    "heritage_legacy_innovation_title": "Innovation",
+    "heritage_legacy_innovation_description": "Research-driven excellence",
+    "vision_mission_title": "Vision & Mission",
+    "vision_title": "Vision",
+    "vision_description": "To be a globally recognized leader in sustainable tea production and innovation, contributing significantly to the well-being of society and the environment.",
+    "mission_title": "Mission",
+    "mission_1": "Enhance company value through good corporate governance, operational efficiency, and human resource development.",
+    "mission_2": "Commit to research and development to continuously produce superior products and relevant agribusiness solutions.",
+    "mission_3": "Implement sustainable and environmentally friendly tea cultivation practices.",
+    "mission_4": "Improve the welfare of employees and surrounding communities through fair and equitable partnerships.",
+    "organizational_values_title": "Our Values",
+    "organizational_values_description": "The core principles that guide our actions, decisions, and relationships",
+    "value_integrity_title": "Integrity",
+    "value_integrity_description": "Upholding honesty, transparency, and ethical conduct in all business activities.",
+    "value_sustainability_title": "Sustainability",
+    "value_sustainability_description": "Committed to environmentally friendly practices and social responsibility.",
+    "value_innovation_title": "Innovation",
+    "value_innovation_description": "Continuously seeking new ways to improve products, processes, and services.",
+    "value_quality_title": "Quality",
+    "value_quality_description": "Delivering superior tea products that meet the highest standards of excellence.",
+    "value_community_title": "Community",
+    "value_community_description": "Fostering positive relationships and contributing to the well-being of local communities.",
+    "organizational_values": {
+      "excellence": {
+        "title": "Excellence",
+        "description": "Pursuing the highest standards in every aspect, from tea cultivation to customer service."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Implementing research-based innovation and continuous improvement in all our operational aspects."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Committed to environmental management and sustainable practices for future generations."
+      },
+      "community": {
+        "title": "Community",
+        "description": "Supporting and empowering communities in our operational areas through various development programs."
+      }
+    },
+    "featured_products_title": "Featured Products",
+    "featured_products_description": "Explore our exquisite range of tea products, crafted with passion and precision.",
+    "product_black_tea_title": "Black Tea",
+    "product_black_tea_description": "Rich and robust, our black tea offers a classic taste experience.",
+    "product_green_tea_title": "Green Tea",
+    "product_green_tea_description": "Fresh and vibrant, our green tea is known for its delicate flavor and health benefits.",
+    "product_oolong_tea_title": "Oolong Tea",
+    "product_oolong_tea_description": "A unique blend of black and green tea, offering a complex and aromatic profile.",
+    "global_impact_title": "Global Impact",
+    "global_impact_description": "Our commitment extends beyond tea production to making a positive impact worldwide.",
+    "impact_sustainability_title": "Sustainable Practices",
+    "impact_sustainability_description": "Implementing eco-friendly farming methods and supporting biodiversity.",
+    "impact_community_title": "Community Empowerment",
+    "impact_community_description": "Investing in education, healthcare, and infrastructure for local communities.",
+    "impact_fair_trade_title": "Fair Trade",
+    "impact_fair_trade_description": "Ensuring fair wages and ethical working conditions for our farmers.",
+    "footer_address": "Address: Jl. Raya Pagilaran No. 1, Batang, Central Java, Indonesia",
+    "footer_phone": "Phone: +62 123 4567 890",
+    "footer_email": "Email: info@pagilaran.com",
+    "footer_copyright": "© 2024 PT Pagilaran. All rights reserved.",
+    "chat_widget": {
+      "header_title": "Chatbot Service",
+      "welcome_message": "Hello! Welcome to PT Pagilaran. How can I assist you today?",
+      "input_placeholder": "Type your message...",
+      "suggestions_title": "Suggestions",
+      "powered_by": "Powered by AI",
+      "error_message": "Sorry, I couldn't fetch the information. Please try again later.",
+      "no_answer_message": "I'm sorry, I don't have information about that yet. Please try another question. If you have specific inquiries, you can reach us through the following contacts:\n\nFor internal company matters (operations, administration), please contact our Main Office:\nPhone: +62 285 123456\nEmail: info@ptpagilaran.com\n\nFor transactions, products, pricing, sales, marketing, or export inquiries, please contact our Export Office:\nPhone: +62 274 789012\nEmail: export@ptpagilaran.com\n\nFor product-related inquiries (materials, components, research, content), please contact our Research Center:\nPhone: +62 274 345678\nEmail: research@ptpagilaran.com\n\nAlternatively, you can visit our Contact page for more details."
+    }
+  }
+}

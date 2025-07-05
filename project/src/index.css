@@ -1,0 +1,740 @@
+/* Base styles from Tailwind */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* Import Tailwind utilities */
+@import 'tailwindcss/utilities';
+@import './styles/sections.css';
+
+/* Font optimization and anti-aliasing */
+@layer base {
+  html {
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: #4a5568;
+    line-height: 1.625;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  /* Heading styles with proper hierarchy */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+  @media (min-width: 1280px) {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+  
+  h2 {
+    font-size: 2.25rem;
+    line-height: 1.2;
+  }
+  @media (min-width: 1024px) {
+    h2 {
+      font-size: 3rem;
+    }
+  }
+  @media (min-width: 1280px) {
+    h2 {
+      font-size: 4rem;
+    }
+  }
+  
+  h3 {
+    font-size: 1.875rem;
+    line-height: 1.375;
+  }
+  @media (min-width: 1024px) {
+    h3 {
+      font-size: 2.25rem;
+    }
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+    line-height: 1.375;
+  }
+  @media (min-width: 1024px) {
+    h4 {
+      font-size: 1.875rem;
+    }
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  @media (min-width: 1024px) {
+    h5 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  h6 {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+  @media (min-width: 1024px) {
+    h6 {
+      font-size: 1.25rem;
+    }
+  }
+  
+  /* Paragraph and text optimization */
+  p {
+    line-height: 1.625;
+  }
+  
+  /* Link styles */
+  a {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Button base styles */
+  button {
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  /* Input styles */
+  input, textarea, select {
+    transition-property: all;
+    transition-duration: 300ms;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Focus styles for accessibility */
+  *:focus {
+    outline: none;
+    --tw-ring-offset-width: 2px;
+    --tw-ring-color: var(--primary-500);
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+  }
+}
+
+/* Component layer for reusable styles */
+@layer components {
+  /* Grid system for consistent layout */
+  .container-grid {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  @media (min-width: 640px) {
+    .container-grid {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .container-grid {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+  
+  .section-padding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  @media (min-width: 1024px) {
+    .section-padding {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+  
+  .content-spacing > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+  }
+  @media (min-width: 1024px) {
+    .content-spacing > :not([hidden]) ~ :not([hidden]) {
+      margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+      margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+    }
+  }
+  
+  /* Card components with depth */
+  .card-base {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(245, 245, 245, 0.5);
+  }
+  
+  .card-elevated {
+    background-color: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(245, 245, 245, 0.5);
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .card-elevated:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  
+  .card-premium {
+    background-image: linear-gradient(to bottom right, #ffffff, #f8f8f8, #f0f0f0);
+    border-radius: 1.5rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(245, 245, 245, 0.5);
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .card-premium:hover {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+  }
+    /* box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); */
+  }
+  
+  /* Button styles with consistent design */
+  .btn-primary {
+    background-image: linear-gradient(to right, #4c51bf, #434190);
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .btn-primary:hover {
+    background-image: linear-gradient(to right, #434190, #3c366b);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transform: scale(1.05);
+  }
+  
+  .btn-secondary {
+    background-image: linear-gradient(to right, #ed8936, #dd6b20);
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .btn-secondary:hover {
+    background-image: linear-gradient(to right, #dd6b20, #c05621);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transform: scale(1.05);
+  }
+  
+  .btn-accent {
+    background-image: linear-gradient(to right, #38a169, #2f855a);
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .btn-accent:hover {
+    background-image: linear-gradient(to right, #2f855a, #276749);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transform: scale(1.05);
+  }
+  
+  .btn-outline {
+    background-color: #fff;
+    color: #4a5568;
+    border-width: 2px;
+    border-color: #edf2f7;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .btn-outline:hover {
+    background-color: #f7fafc;
+    border-color: #9f7aea;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  /* Tea Leaf Button - Custom shape with gold-green gradient */
+  .btn-tea-leaf {
+    position: relative;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    filter: drop-shadow(0 8px 25px rgba(234, 179, 8, 0.3)) drop-shadow(0 4px 12px rgba(45, 119, 56, 0.2));
+  }
+  .btn-tea-leaf:hover {
+    transform: scale(1.1);
+  }
+  
+  .btn-tea-leaf:hover {
+    filter: drop-shadow(0 12px 35px rgba(234, 179, 8, 0.4)) drop-shadow(0 6px 16px rgba(45, 119, 56, 0.3));
+    animation: tea-leaf-dance 2s ease-in-out infinite;
+  }
+  
+  /* Text gradient effects */
+  .text-gradient-primary {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #eab308, #a16207);
+  }
+  
+  .text-gradient-accent {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #2f855a, #38a169);
+  }
+  
+  .text-gradient-animated {
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #eab308 0%, #a16207 50%, #eab308 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+/* Remove extra closing brace */
+  
+  .text-gradient-tea-leaf {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background: linear-gradient(90deg, #eab308, #ca8a04, #a16207, #2d7738);
+  }
+
+  .text-gradient-gold {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #f6e05e, #d69e2e);
+  }
+
+  .text-gradient-gold-darker {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #d69e2e, #92400e);
+  }
+  
+  /* Background patterns and textures */
+  .bg-pattern-subtle {
+    background-image: url('/public/images/tea-pattern.png'); /* Assuming you have a tea-pattern.png in your public/images folder */
+    opacity: 0.05;
+  }
+  
+  
+  
+  .bg-gradient-depth {
+    background-image: linear-gradient(to bottom right, #fff, rgba(245, 245, 245, 0.5), rgba(237, 242, 247, 0.3));
+  }
+  
+  /* Icon styles */
+  .icon-primary {
+    color: #434190;
+  }
+  
+  .icon-accent {
+    color: #2f855a;
+  }
+  
+  .icon-floating {
+    animation: leaf-float 4s ease-in-out infinite;
+  }
+  
+  /* Layout utilities */
+  .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .grid-auto-fit {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  
+  .grid-auto-fill {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+  
+  /* Responsive text sizing */
+  .text-responsive-sm {
+    font-size: 0.875rem;
+  }
+  @media (min-width: 768px) {
+    .text-responsive-sm {
+      font-size: 1rem;
+    }
+  }
+  
+  .text-responsive-base {
+    font-size: 1rem;
+  }
+  @media (min-width: 768px) {
+    .text-responsive-base {
+      font-size: 1.125rem;
+    }
+  }
+  
+  .text-responsive-lg {
+    font-size: 1.125rem;
+  }
+  @media (min-width: 768px) {
+    .text-responsive-lg {
+      font-size: 1.25rem;
+    }
+  }
+  
+  .text-responsive-xl {
+    font-size: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .text-responsive-xl {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Spacing utilities */
+  .space-section > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+  }
+  @media (min-width: 1024px) {
+    .space-section > :not([hidden]) ~ :not([hidden]) {
+      margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
+      margin-bottom: calc(6rem * var(--tw-space-y-reverse));
+    }
+  }
+  
+  .space-content > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+  }
+  @media (min-width: 1024px) {
+    .space-content > :not([hidden]) ~ :not([hidden]) {
+      margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+      margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+    }
+  }
+  
+  .space-items > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  }
+  @media (min-width: 1024px) {
+    .space-items > :not([hidden]) ~ :not([hidden]) {
+      margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+      margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+    }
+  }
+  @keyframes tea-leaf-dance {
+    0% {
+      transform: rotate(0deg) translateY(0);
+    }
+    25% {
+      transform: rotate(5deg) translateY(-5px);
+    }
+    75% {
+      transform: rotate(-5deg) translateY(5px);
+    }
+    100% {
+      transform: rotate(0deg) translateY(0);
+    }
+  }
+/* End of components layer */
+
+/* Utility layer for specific adjustments */
+@layer utilities {
+  /* Text rendering optimization */
+  .text-crisp {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  /* Backdrop effects */
+  .backdrop-glass {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .backdrop-dark {
+    backdrop-filter: blur(8px);
+    background-color: rgba(28, 32, 36, 0.8);
+    border: 1px solid rgba(64, 64, 64, 0.2);
+  }
+  
+  /* Animation utilities */
+  .animate-in {
+    animation: fade-in 0.5s ease-out forwards;
+  }
+  
+  .animate-up {
+    animation: slide-up 0.5s ease-out forwards;
+  }
+  
+  .animate-scale {
+    animation: scale-in 0.5s ease-out forwards;
+  }
+  
+  /* Hover effects */
+  
+  .hover-glow:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Focus states */
+  .focus-ring:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 2px #6b46c1, 0 0 0 4px #b794f4;
+  }
+  
+  /* Gradient borders */
+  .border-gradient {
+    border: 1px solid transparent;
+    background-image: linear-gradient(to right, #b794f4, #9ae6b4);
+    background-clip: border-box;
+  }
+  
+  /* Content width constraints */
+  .content-narrow {
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .content-medium {
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .content-wide {
+    max-width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .content-full {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Tea leaf specific utilities */
+  .tea-leaf-shadow {
+    filter: drop-shadow(0 8px 25px rgba(234, 179, 8, 0.3)) drop-shadow(0 4px 12px rgba(45, 119, 56, 0.2));
+  }
+  
+  .tea-leaf-glow {
+    box-shadow: 0 0 20px rgba(234, 179, 8, 0.4), 0 0 40px rgba(45, 119, 56, 0.2);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cbd5e0;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a0aec0;
+}
+
+/* Selection styles */
+::selection {
+  background-color: #b794f4;
+  color: #2d3748;
+}
+
+::-moz-selection {
+  background-color: #b794f4;
+  color: #2d3748;
+}
+
+/* Print styles */
+@media print {
+  * {
+    color: #1a202c;
+    background-color: #fff;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .animate-tea-leaf-dance {
+    animation: none !important;
+  }
+}
+
+/* Tea leaf button specific styles */
+.tea-leaf-button-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tea-leaf-button-container:hover .tea-leaf-glow-effect {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.tea-leaf-glow-effect {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(234, 179, 8, 0.3) 0%, rgba(45, 119, 56, 0.2) 50%, transparent 70%);
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  filter: blur(20px);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+.floating-logo {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) forwards;
+}
+
+@layer utilities {
+  .text-shine {
+    background: linear-gradient(to right, #ffffff 20%, #333333 40%, #333333 60%, #ffffff 80%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 4s linear infinite;
+  }
+
+  @keyframes shine {
+    to {
+      background-position: -200% center;
+    }
+  }
+}
